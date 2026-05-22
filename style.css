@@ -1389,3 +1389,88 @@ footer{
   }
 
 }
+.project-link{
+
+ text-decoration:none;
+}
+
+.project-btn{
+
+ width:100%;
+
+ padding:16px;
+
+ border:none;
+
+ border-radius:16px;
+
+ background:black;
+
+ color:white;
+
+ cursor:pointer;
+
+ font-size:16px;
+
+ transition:0.3s;
+}
+
+.project-btn:hover{
+
+ transform:translateY(-4px);
+
+ background:#333;
+}
+/* PROJECT CLICK FIX */
+
+.project-card{
+
+    position:relative;
+}
+
+.project-card::before{
+
+    pointer-events:none !important;
+}
+
+.overlay-text{
+
+    pointer-events:none !important;
+}
+
+.project-content{
+
+    position:relative;
+
+    z-index:100;
+}
+
+.project-link{
+
+    display:block;
+
+    position:relative;
+
+    z-index:101;
+
+    text-decoration:none;
+}
+
+.project-btn{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:black;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
